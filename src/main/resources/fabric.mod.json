@@ -1,25 +1,19 @@
 {
   "schemaVersion": 1,
   "id": "magic_mirror",
-  "version": "1.1",
+  "version": "${version}",
   "name": "Magic Mirror",
-  "authors": [
-    "tired"
-  ],
-  "license": "CC0-1.0",
+  "authors": ["tired", "known_as_bmf"],
+  "license": "MIT",
   "icon": "assets/magic_mirror/icon.png",
   "environment": "*",
   "entrypoints": {
-    "main": [
-      "github.tired9494.MagicMirror"
-    ]
+    "main": ["com.known_as_bmf.magic_mirror.MagicMirror"]
   },
-  "mixins": [
-    "MagicMirror.mixins.json"
-  ],
+  "mixins": ["magic_mirror.mixins.json"],
   "depends": {
-    "fabricloader": ">=0.9.1+build.205",
+    "fabricloader": ">=0.7.4",
     "fabric": "*",
-    "minecraft": "1.16.3"
+    "minecraft": "1.16.x"
   }
 }

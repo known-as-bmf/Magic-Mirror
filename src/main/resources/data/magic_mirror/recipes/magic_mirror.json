@@ -7,13 +7,13 @@
   ],
   "key": {
     "D": {
-      "item": "minecraft:diamond_block"
+      "item": "minecraft:diamond"
     },
     "I": {
       "item": "minecraft:iron_ingot"
     },
-      "G": {
-        "item": "minecraft:ghast_tear"
+    "G": {
+      "item": "minecraft:ghast_tear"
     }
   },
   "result": {
@@ -21,4 +21,3 @@
     "count": 1
   }
 }
-

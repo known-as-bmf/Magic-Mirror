@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "magic_mirror:altar"
+        }
+      ],
+      "functions": [
+        { "function": "copy_name", "source": "block_entity" },
+        {
+          "function": "copy_nbt",
+          "source": "block_entity",
+          "ops": [
+            {
+              "source": "AltarUuid",
+              "target": "BlockEntityTag.AltarUuid",
+              "op": "replace"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
+    }
+  ]
+}

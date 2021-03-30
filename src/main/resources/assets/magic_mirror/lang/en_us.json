@@ -1,5 +1,7 @@
 {
   "item.magic_mirror.magic_mirror": "Magic Mirror",
-  "magic_mirror.fail": "§oYou gaze into the cloudy mirror... It can't find a valid spawnpoint in this dimension.",
-  "magic_mirror.tooltip": "§8Even just a glance makes you feel weak..."
+  "item.magic_mirror.altar": "Altar",
+  "magic_mirror.magic_mirror.tooltip": "Even just a glance makes you feel weak...",
+  "magic_mirror.messages.failure_no_spawn_found": "You gaze into the cloudy mirror... It can't find a valid spawnpoint.",
+  "magic_mirror.messages.failure_not_enough_xp": "You gaze into the cloudy mirror... You don't have enough experience for the mirror to use."
 }

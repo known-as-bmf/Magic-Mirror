@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.known_as_bmf.magic_mirror.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": ["server.world.ServerWorldMixin"],
+  "server": [],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
